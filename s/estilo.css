@@ -1,0 +1,54 @@
+body
+{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(96, 117, 138);
+    
+}
+div
+{
+    width: 1000px;
+    height: 790px;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: rgb(154, 207, 207);
+    border: solid black;
+    text-align: center;    
+}
+#img
+{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+.mascotas
+{
+    width: 1000px;
+    height: 424px;
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    
+    
+}
+.gatos
+{
+    width: 450px;
+    height: 400px;
+    margin: 0px auto;
+    background-color: rgb(156, 84, 184);
+    border: 2px solid black;
+    text-align: center;
+}
+.perros
+{
+    width: 450px;
+    height: 400px;
+    margin: 0px auto;
+    background-color: rgb(208, 131, 211);
+    border: 2px solid black;
+    text-align: center;
+}
+
+footer
+{
+    height: 50px;
+}
