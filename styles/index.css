@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: rgb(94, 140, 185);
+    font-family: 'Josefin Sans';
+    
+}
+div.container{
+    padding: 30px;
+}
+@media screen and (max-width: 580px){
+    .main
+    {
+        background-color: rgb(154, 207, 207);
+    }
+    .gatos
+    {
+        background-color: rgb(156, 84, 184);
+    }
+    .perros
+    {
+        background-color: rgb(208, 131, 211);
+    }
+}
+
+
+#img
+{
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.gatos{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.perros{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.mascotas{
+    font-size: 20px;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+
+footer
+{
+    height: 50px;
+}
+.main.container-fluid
+{
+    padding: 0;
+    margin: 0;    
+}
+
+.img-hd{
+    background-image: url(/img/index/perroygato.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.txt-hd{
+    position: relative;
+    transform: translate(0%,10%);
+    color: rgb(0,0,0);
+    font-size: 30px;
+
+}

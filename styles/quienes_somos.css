@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: rgb(94, 140, 185);
+    font-family: 'Josefin Sans';
+    
+}
+p
+{
+    font-size: 20px;
+    margin-top: 30px;
+}
+div.container{
+    margin-top: 30px;
+}
+#img
+{
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+}
