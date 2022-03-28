@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: rgb(96, 117, 138);
+    font-family: 'Josefin Sans';
+    
+}
+div.container{
+    padding: 30px;
+}
+@media screen and (max-width: 580px){
+    .main
+    {
+        background-color: rgb(154, 207, 207);
+    }
+    .gatos
+    {
+        background-color: rgb(156, 84, 184);
+    }
+    .perros
+    {
+        background-color: rgb(208, 131, 211);
+    }
+}
+
+
+#img
+{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+#img2{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+
+}
+
+
+.gatos{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.perros{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.mascotas{
+    font-size: 20px;
+}
+a{
+    color: rgb(0, 0, 0);
+}
+
+footer
+{
+    height: 50px;
+}
+.main.container-fluid
+{
+    padding: 0;
+    margin: 0;    
+}
+
+.img-hd{
+    background-image: url(/img/index/perroygato.jpg);
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.txt-hd{
+    position: relative;
+    transform: translate(0%,10%);
+    color: rgb(0,0,0);
+    font-size: 30px;
+
+}
+.img-hd2{
+    background-image: url(/img/perros/dos-perritos.jpg);
+    
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.container2.container-fluid{
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    opacity: 0.6;
+    background: linear-gradient(rgba(85, 84, 84, 0.7), rgba(88, 88, 88, 0.905)), url(/img/perros/fondo_patitas.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 52vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

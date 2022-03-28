@@ -30,7 +30,7 @@ img{
     
 }
 .gatos{
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .main.container-fluid
 {
@@ -69,4 +69,32 @@ img{
 .row{
     padding: 10px;
     
+}
+.text{
+    margin-top: 10px;
+}
+.container2.container-fluid{
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgb(0, 0, 0);
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    opacity: 0.6;
+    background: linear-gradient(rgba(85, 84, 84, 0.7), rgba(88, 88, 88, 0.905)), url(/img/perros/fondo_patitas.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 52vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#img-reminder{
+    width: 150px;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0,0, 0.4);
+    border:1px solid black
 }
