@@ -1,0 +1,41 @@
+:root{
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light:#ffffff;
+}
+body{
+    color: var(--light);
+    text-align: center; 
+    
+}
+.bd-dark{
+    background-color: var(--dark) !important;
+
+}
+.bd-dark-x{
+    background-color: var(--dark-x);
+}
+
+.form-control,.btn{
+    min-height: 1rem ;
+    line-height: initial ;
+}
+.img-1{
+    background-image: url(/img/index/dog-and-kitten-meeting.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-2{
+    background-image: url(/img/index/f608x342-292237_321960_0.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-fluid{
+    height: 50%;
+
+}
+#exampleRadios1{
+    text-align:justify ;
+}
